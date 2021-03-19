@@ -1,3 +1,23 @@
 .headerImg{
     background-image: url(../img/HeaderAcercaDe.jpg);
 }
+
+main > section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container{
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 3rem;
+    border-radius: 15px;
+}
+
+.container h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
